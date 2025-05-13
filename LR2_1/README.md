@@ -4,11 +4,11 @@
 Поднимаем контейнеры
 ```shell
 cd lab2
-docker compose up -d
+sudo docker compose up 
 ```
 ![](pic/1.png)
 
-подключаемся к primary
+Подключаемся к primary
 
 ```shell
 psql -h localhost -p 5433 -U postgres
