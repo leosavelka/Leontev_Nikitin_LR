@@ -50,7 +50,7 @@ docker stop pg_primary
 ```
 ![](pic/7.png)
 
-переводим standby в primary.
+Переводим standby в primary.
 ```psql
 SELECT pg_promote();
 
