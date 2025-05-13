@@ -44,7 +44,7 @@ INSERT INTO name_table (name) VALUES ('Sava'), ('Leon'), ('Dima'), ('Niki');
 ```
 ![](pic/6.png)
 
-Стопим `primary`
+Стопим primary
 ```
 docker stop pg_primary
 ```
